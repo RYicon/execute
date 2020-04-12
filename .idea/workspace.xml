@@ -1,48 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca454863-d64e-4490-a231-3d7cd15cb89f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/JavaLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/NullClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/data/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/轻量级锁.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ca454863-d64e-4490-a231-3d7cd15cb89f" name="Default" comment="feat:锁">
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/HashUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/HashCodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/Hash和偏向锁互斥.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/重量级锁.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/锁状态变化_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/锁状态变化_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bash.exe.stackdump" beforeDir="false" afterPath="$PROJECT_DIR$/bash.exe.stackdump" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/host/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/test/java/com/example/host/ServiceStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/host/src/test/java/com/example/host/ServiceStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/ServiceInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/ServiceInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/facetory/AResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/facetory/AResponsibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/facetory/BaseResponsiblity.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/facetory/BaseResponsiblity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/facetory/IResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/facetory/IResponsibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/simple/AResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/simple/AResponsibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/simple/BResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/simple/BResponsibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/simple/CResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/simple/CResponsibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/simple/IResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/simple/IResponsibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/simple/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/simple/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/simple/ResponsibilityChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/chain_responsibity/simple/ResponsibilityChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/dynamicproxy/ProxyByCglib.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/dynamicproxy/ProxyByCglib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/dynamicproxy/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/dynamicproxy/ProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/dynamicproxy/factorybean/ClientInvokerProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/dynamicproxy/factorybean/ClientInvokerProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/dynamicproxy/factorybean/FactoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/dynamicproxy/factorybean/FactoryConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/dynamicproxy/factorybean/ProxyFacadeByCglib.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/dynamicproxy/factorybean/ProxyFacadeByCglib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/staticproxy/UserDaoProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/design/proxy/staticproxy/UserDaoProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/domain/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/domain/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/map/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/base/map/demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/function/Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/function/Lambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/function/stream/StreamUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/function/stream/StreamUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/mutli/thread/CountDownLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/mutli/thread/CountDownLatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/example/base/design/Blank.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/example/base/design/Blank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/example/base/design/proxy/dynamicproxy/ProxyByCglibTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/example/base/design/proxy/dynamicproxy/ProxyByCglibTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/example/base/design/proxy/dynamicproxy/ProxyFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/example/base/design/proxy/dynamicproxy/ProxyFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/example/base/design/proxy/dynamicproxy/factorybean/ProxyFacadeByCglibTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/example/base/design/proxy/dynamicproxy/factorybean/ProxyFacadeByCglibTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/example/base/design/proxy/staticproxy/UserDaoProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/test/java/com/example/base/design/proxy/staticproxy/UserDaoProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/JavaLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/JavaLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/NullClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/data/NullClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/data/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/data/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/轻量级锁.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/lock/jol/轻量级锁.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/mutli/thread/CountDownLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/example/mutli/thread/CountDownLatchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +89,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -133,11 +104,25 @@
       <recent name="D:\project\overSea\execute\infrastructure\src\main\java\com\example\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedAnsley">
-    <configuration name="轻量级锁" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.lock.jol.轻量级锁" />
+  <component name="RunManager" selected="Application.Hash和偏向锁互斥">
+    <configuration name="Hash和偏向锁互斥" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.lock.jol.Hash和偏向锁互斥" />
       <module name="base" />
-      <option name="PROGRAM_PARAMETERS" value="‐XX:BiasedLockingStartupDelay=0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.lock.jol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashCodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.lock.jol.HashCodeTest" />
+      <module name="base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.lock.jol.*" />
@@ -151,6 +136,7 @@
     <configuration name="JavaLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.lock.jol.JavaLayout" />
       <module name="base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.lock.jol.*" />
@@ -161,13 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.base.design.chain_responsibity.simple.MyTest" />
-      <module name="infrastructure" />
+    <configuration name="锁状态变化_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.lock.jol.锁状态变化_1" />
+      <module name="base" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.base.design.chain_responsibity.simple.*" />
+          <option name="PATTERN" value="com.example.lock.jol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,9 +161,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedAnsley" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.lock.jol.SynchronizedAnsley" />
+    <configuration name="锁状态变化_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.lock.jol.锁状态变化_2" />
       <module name="base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.lock.jol.*" />
@@ -190,23 +177,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDaoProxyTest.save_proxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.base.design.proxy.staticproxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.base.design.proxy.staticproxy" />
-      <option name="MAIN_CLASS_NAME" value="com.example.base.design.proxy.staticproxy.UserDaoProxyTest" />
-      <option name="METHOD_NAME" value="save_proxy" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -242,21 +212,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyTest" />
-      <item itemvalue="Application.JavaLayout" />
-      <item itemvalue="Application.SynchronizedAnsley" />
-      <item itemvalue="Application.轻量级锁" />
-      <item itemvalue="JUnit.UserDaoProxyTest.save_proxy" />
       <item itemvalue="Spring Boot.SpringbootBaseApplication" />
       <item itemvalue="Spring Boot.HostApplication" />
+      <item itemvalue="Application.锁状态变化_1" />
+      <item itemvalue="Application.锁状态变化_2" />
+      <item itemvalue="Application.HashCodeTest" />
+      <item itemvalue="Application.Hash和偏向锁互斥" />
+      <item itemvalue="Application.JavaLayout" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SynchronizedAnsley" />
-        <item itemvalue="Application.轻量级锁" />
+        <item itemvalue="Application.Hash和偏向锁互斥" />
+        <item itemvalue="Application.HashCodeTest" />
         <item itemvalue="Application.JavaLayout" />
-        <item itemvalue="JUnit.UserDaoProxyTest.save_proxy" />
-        <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.锁状态变化_2" />
+        <item itemvalue="Application.锁状态变化_1" />
       </list>
     </recent_temporary>
   </component>
@@ -288,12 +258,24 @@
       <workItem from="1586588637857" duration="6019000" />
       <workItem from="1586596268313" duration="175000" />
       <workItem from="1586596455409" duration="2102000" />
-      <workItem from="1586617491849" duration="8756000" />
+      <workItem from="1586617491849" duration="18979000" />
     </task>
+    <task id="LOCAL-00001" summary="feat:锁">
+      <created>1586662915562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586662915562</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat:锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:锁" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="192" key="#Notifications" timestamp="1586617277311">
@@ -305,42 +287,46 @@
     </state>
     <state x="304" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586662099711" />
     <state x="304" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.965@0.23.1680.965" timestamp="1586584113961" />
-    <state x="421" y="130" key="CommitChangelistDialog2" timestamp="1586662877645">
+    <state x="560" y="128" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586670855667">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="421" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1586662877645" />
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1586662760128">
+    <state x="560" y="128" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586670855667" />
+    <state x="421" y="130" key="CommitChangelistDialog2" timestamp="1586662915370">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1586662760128" />
-    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1586662760127">
+    <state x="421" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1586662915370" />
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1586705456831">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1586662760127" />
-    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1586662760127">
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1586705456831" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1586705456829">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1586662760127" />
-    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1586662760128">
+    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1586705456829" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1586705456828">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1586662760128" />
-    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1586661428437">
+    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1586705456828" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1586705456830">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1586661428437" />
-    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1586661428436">
+    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1586705456830" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1586678899438">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1586661428436" />
-    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1586661428436">
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1586678899438" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1586678899438">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1586661428436" />
-    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1586661428436">
+    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1586678899438" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1586678899437">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1586661428436" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1586678899437" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1586678899438">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1586678899438" />
     <state x="378" y="155" key="Maven.ArtifactSearchDialog" timestamp="1586621857513">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -350,16 +336,16 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="595" y="242" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586662613777" />
-    <state x="306" y="85" key="SettingsEditor" timestamp="1586661419469">
+    <state x="306" y="85" key="SettingsEditor" timestamp="1586678756647">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="306" y="85" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1586661419469" />
+    <state x="306" y="85" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1586678756647" />
     <state x="341" y="140" key="SettingsEditor/0.23.1680.960@0.23.1680.960" timestamp="1586588623639" />
     <state x="341" y="141" key="SettingsEditor/0.23.1680.965@0.23.1680.965" timestamp="1586587328870" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1586662823675">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1586662917401">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1586662823675" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1586662917401" />
     <state x="494" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1586617492630">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -373,5 +359,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="495" y="289" width="845" height="538" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1586659927426" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1586670888623">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1586670888623" />
   </component>
 </project>
