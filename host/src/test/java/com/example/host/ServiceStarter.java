@@ -1,10 +1,10 @@
 package com.example.host;
 
-import com.example.base.ServiceInitializer;
-import org.springframework.boot.SpringApplication;
+        import com.example.base.ServiceInitializer;
+        import org.springframework.boot.SpringApplication;
 
-import java.awt.*;
-import java.net.URI;
+        import java.awt.*;
+        import java.net.URI;
 
 public class ServiceStarter {
     public static void main(String[] args) throws Exception {
