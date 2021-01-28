@@ -15,6 +15,7 @@ public class Jump {
             return -1;
         }
 
+        //次数从1开始，所以dp数组也从1开始，方便理解
         int[] dp = new int[totalCount + 1];
 
 

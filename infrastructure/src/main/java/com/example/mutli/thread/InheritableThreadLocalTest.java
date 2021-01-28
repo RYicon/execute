@@ -13,8 +13,8 @@ public class InheritableThreadLocalTest {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
         //该行代码执行后，输出null，原因是，子线程中thread的inheritableThreadLocals已经赋值了
-        executorService.submit(() -> {
-        });
+//        executorService.submit(() -> {
+//        });
         InheritableThreadLocal<String> inh = new InheritableThreadLocal<String>();
         inh.set("叫爸爸");
 
